@@ -7,20 +7,13 @@
 require('chai').should();
 
 var tools    = require('../lib/socket.lib.tools');
-var validate = require('../lib/domains/validation');
 var protocol = require('../lib/domains/protocol');
 var pattern  = require('../lib/domains/pattern');
 var net      = require('../lib/domains/net');
-var url      = require('../lib/domains/url');
+var uri      = require('../lib/domains/uri');
 
 
 describe('socket.lib.tools:', function () {
-
-  it('validate', function () {
-    tools.should.have.property('validate');
-    tools.validate.should.be.an('object');
-    tools.validate.should.deep.equal(validate);
-  });
 
   it('protocol', function () {
     tools.should.have.property('protocol');
@@ -40,10 +33,10 @@ describe('socket.lib.tools:', function () {
     tools.net.should.deep.equal(net);
   });
 
-  it('url', function () {
-    tools.should.have.property('url');
-    tools.url.should.be.an('object');
-    tools.url.should.deep.equal(url);
+  it('uri', function () {
+    tools.should.have.property('uri');
+    tools.uri.should.be.an('object');
+    tools.uri.should.deep.equal(uri);
   });
 
 });
