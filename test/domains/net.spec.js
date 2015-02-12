@@ -7,7 +7,7 @@
 require('chai').should();
 
 var net = require('../../lib/domains/net');
-var config = {
+var options = {
   protocol: 'http',
   host: 'LOCALHOST',
   port: 8080
@@ -15,15 +15,15 @@ var config = {
 
 describe('Net Library Methods:', function () {
 
-  describe('getUri:', function () {
+  describe('getBaseUrl:', function () {
 
     it('exists', function () {
-      net.should.have.property('getUri');
-      net.getUri.should.be.a('function');
+      net.should.have.property('getBaseUrl');
+      net.getBaseUrl.should.be.a('function');
     });
 
     it('returns correct uri', function () {
-      net.getUri(config).should.equal('http://localhost:8080/');
+      net.getBaseUrl(options).should.equal('http://localhost:8080');
     });
   });
 
