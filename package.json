@@ -1,6 +1,6 @@
 {
   "name": "socket.lib.tools",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "license": "MIT",
   "main": "./lib/socket.lib.tools",
   "homepage": "https://github.com/luscus/socket.lib.tools",
@@ -19,13 +19,12 @@
     "request-ip": "0.0.4"
   },
   "devDependencies": {
-    "grunt": "0.4.5",
-    "grunt-license-report": "0.0.8",
-    "grunt-contrib-jshint": "0.11.0",
-    "grunt-mocha-test": "0.12.7",
-    "load-grunt-tasks": "3.1.0",
     "chai": "2.0.0",
-    "mocha": "2.1.0"
+    "mocha": "2.1.0",
+    "gulp": "3.9.0",
+    "gulp-mocha": "2.1.1",
+    "gulp-jshint": "1.11.0",
+    "jshint-stylish": "2.0.0"
   },
   "repository": {
     "type": "git",
