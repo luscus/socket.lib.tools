@@ -14,17 +14,17 @@
     "tools"
   ],
   "dependencies": {
-    "assert-plus": "0.1.5",
-    "node.extend": "1.1.5",
-    "request-ip": "1.1.3"
+    "assert-plus": "1.0.0",
+    "node.extend": "1.1.6",
+    "request-ip": "1.2.3"
   },
   "devDependencies": {
-    "chai": "3.0.0",
-    "gulp": "3.9.0",
-    "gulp-jshint": "1.11.0",
-    "gulp-mocha": "2.1.2",
-    "jshint-stylish": "2.0.1",
-    "mocha": "2.2.5"
+    "chai": "3.5.0",
+    "gulp": "3.9.1",
+    "gulp-jshint": "2.0.4",
+    "gulp-mocha": "3.0.1",
+    "jshint-stylish": "2.2.1",
+    "mocha": "3.2.0"
   },
   "repository": {
     "type": "git",
