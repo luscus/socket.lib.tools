@@ -15,7 +15,7 @@
   ],
   "dependencies": {
     "assert-plus": "0.1.5",
-    "node.extend": "1.1.5",
+    "node.extend": "1.1.7",
     "request-ip": "1.1.3"
   },
   "devDependencies": {
